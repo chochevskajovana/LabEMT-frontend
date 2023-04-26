@@ -25,7 +25,7 @@ const bookTerm = (props) => {
                 {/*</Link>*/}
 
                 {props.term.availableCopies ? (
-                    <button className={"btn btn-outline-primary"}
+                    <button className={"btn btn-outline-success"}
                             onClick={() => props.onTakenBook(props.term.id)}>
                         Take the book</button>
                 ) : (
